@@ -9,3 +9,8 @@ github:
 conda_build:
   error_overlinking: true
 conda_forge_output_validation: true
+bot:
+  version_updates:
+    allowed_tag_globs: 'nccl4py-v*'
+    sources:
+      - github
